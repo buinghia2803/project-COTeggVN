@@ -1,0 +1,77 @@
+body {
+    color: #666666;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+input {
+    border: none;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: unset;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.text-green {
+    color: #2ecc71;
+}
+
+.text-orange {
+    color: orange
+}
+
+.text-red,
+.notice {
+    color: red;
+}
+
+.bg-green {
+    background-color: #2ecc71;
+}
+
+.header .dropdown-item,
+.banner .dropdown-item {
+    --bs-dropdown-link-active-bg: #2ecc71;
+}
+
+.banner {
+    background-color: #cdcdcd;
+    height: 50%;
+    min-height: 240px;
+}
+
+.find {
+    height: 50px;
+}
+
+.custom-text-truncate {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
